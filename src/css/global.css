@@ -31,7 +31,7 @@
     -moz-osx-font-smoothing: grayscale;
 
     scroll-behavior: smooth;
-    scrollbar-color: #a697e2 #040308;
+    scrollbar-color: var(--accent) var(--secondary);
     scrollbar-width: thin;
 
     font: 400 16px var(--font-family);
