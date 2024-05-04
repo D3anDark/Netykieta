@@ -7,7 +7,7 @@
     border-top: 2px solid var(--primary);
 
     width: 100svw;
-    min-height: 100svh;
+    min-height: 85svh;
 
     gap: 1rem;
 
@@ -28,7 +28,6 @@
 }
 
 .history .header{
-    font-family: var(--font-funny);
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
