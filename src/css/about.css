@@ -40,12 +40,67 @@
 
     width: 100%;
 
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
 }
 
 .about a{
     text-decoration: underline;
 }
+
+.about ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 1rem;
+
+    width: 100%;
+}
+
+.about ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.25rem;
+    font-weight: 300;
+
+    width: 100%;
+    min-height: 100px;
+
+    border: 2px solid var(--text);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+
+    transition: all 0.4s;
+}
+
+.about ul li::before{
+    content: '👉';
+    margin-right: 1rem;
+}
+
+.about ul li a{
+    text-decoration: underline;
+}
+
+.about ul li:hover{
+    box-shadow: 8px 8px 0 var(--accent);
+
+    transform: scale(1.05);
+
+    transition: all 0.4s;
+}
+
+.about ul li:active{
+    transform: translate(8px, 8px);
+
+    box-shadow: 0 0 0 var(--text);
+
+    transition: all 0.4s;
+}
+
 
 .zlamanie{
     display: flex;
