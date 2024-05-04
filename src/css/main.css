@@ -21,9 +21,7 @@ main {
 main h1{
     flex-direction: row;
 
-    font-family: var(--font-funny);
-    font-size: 5rem;
-    font-weight: 700;
+    font: 700 5rem/100% var(--font-funny);
 
     margin-bottom: 1rem;
 }
@@ -33,8 +31,10 @@ h1 svg{
 
     width: 70px;
     height: 70px;
+}
 
-    transition: all 0.4s;
+h1 svg:nth-child(1){
+    transform: rotate(270deg);
 }
 
 /*paragraph*/
