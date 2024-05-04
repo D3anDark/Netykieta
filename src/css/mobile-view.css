@@ -1,0 +1,150 @@
+@media (min-width: 1000px) {
+    main ul {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (max-width: 768px){
+    nav{
+        padding: 1rem;
+    }
+
+    .dropdown-button{
+        display: flex;
+    }
+
+    .navLinks{
+        display: none;
+    }
+
+    .dropdown-content{
+        min-width: 80svw;
+    }
+
+    main{
+        margin-top: 3rem;
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main h1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 2.5rem;
+
+        padding: 1rem;
+    }
+
+    h1 svg{
+        fill: var(--text);
+
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    main p{
+        font-size: 1rem;
+        width: 75%;
+        margin: 1rem 0;
+    }
+
+    .przyklad p{
+        font-size: 1rem;
+    }
+
+    main .comment{
+        font-size: 1rem;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-content{
+        width: 100%;
+    }
+
+    .about .header{
+        font-size: 2rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+
+        width: 100%;
+    }
+
+    .zlamanie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 130%;
+    }
+
+
+    .history{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .history-content{
+        width: 100% !important;
+    }
+
+    .history .header{
+        font-size: 1.8rem !important;
+    }
+
+    .history p {
+        font-size: 1rem;
+
+        width: 100%;
+
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media (max-width: 425px){
+    main h1{
+        font-size: 2.5rem;
+    }
+
+    main p{
+        font-size: 1rem;
+
+    }
+
+    .buttons a{
+        padding: 1rem 2rem;
+        margin: 0.5rem 0;
+    }
+
+    .about .header{
+        font-size: 2rem;
+    }
+
+    .about p{
+        font-size: 1.2rem;
+    }
+
+    .history{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,118 @@
+/*whole main section*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: transparent;
+
+    width: 100svw;
+    min-height: 100svh;
+
+    padding: 5rem 2rem;
+
+    overflow:  hidden;
+
+    text-align: center;
+}
+
+/*big heading*/
+main h1{
+    flex-direction: row;
+
+    font-family: var(--font-funny);
+    font-size: 5rem;
+    font-weight: 700;
+
+    margin-bottom: 1rem;
+}
+
+h1 svg{
+    fill: var(--text);
+
+    width: 70px;
+    height: 70px;
+
+    transition: all 0.4s;
+}
+
+/*paragraph*/
+main p{
+    font-size: 1.25rem;
+    font-weight: 300;
+
+    width: 30%;
+
+    margin: 0 0 2rem;
+}
+
+.przyklad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.przyklad p{
+    font-size: 1.25rem;
+    font-weight: 500;
+
+    width: 100%;
+}
+
+main .comment{
+    font: 500 inherit/100% var(--font-funny);
+}
+
+main ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+    gap: 2rem;
+
+    width: 100%;
+
+    margin-top: 2rem;
+}
+
+main ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.25rem;
+    font-weight: 300;
+
+    width: 100%;
+    min-height: 100px;
+
+    border: 2px solid var(--text);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+
+    list-style: none;
+
+    cursor: pointer;
+
+    transition: all 0.4s;
+}
+
+main ul li:hover{
+    transform: scale(1.05);
+
+    box-shadow: 8px 8px var(--accent);
+
+    transition: all 0.4s;
+}
+
+main ul li:active{
+    transform: translate(8px, 8px);
+    box-shadow: 0 0 var(--text);
+
+    transition: all 0.4s;
+}
+
+

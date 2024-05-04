@@ -1,0 +1,63 @@
+:root{
+    --font-funny:'Comico Regular', sans-serif;
+    --font-family: 'Clash Grotesk', sans-serif;
+}
+
+:root[data-theme="light"] {
+    --text: #090f1a;
+    --background: #f3f5fc;
+    --primary: #152d70;
+    --secondary: #6d8fee;
+    --accent: #0b41d5;
+    --theme-img: url('../img/Moon.svg');
+}
+:root[data-theme="dark"] {
+    --text: #e6ebf6;
+    --background: #03060d;
+    --primary: #90a9eb;
+    --secondary: #113392;
+    --accent: #2c62f4;
+    --theme-img: url('../img/Sun.svg');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    scroll-behavior: smooth;
+    scrollbar-color: #a697e2 #040308;
+    scrollbar-width: thin;
+
+    font: 400 16px var(--font-family);
+}
+
+html, body {
+    position:relative;
+    overflow-x:hidden;
+
+    z-index: -20000;
+}
+
+span {
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+
+    z-index: -20000;
+}
+
+
+deepl-input-controller, deepl-inline-trigger{
+    opacity: 0;
+}
