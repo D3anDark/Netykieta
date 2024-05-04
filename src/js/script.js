@@ -49,6 +49,3 @@ function setThemeFromCookie() {
 
 // Ustawiamy motyw na podstawie ciasteczek przy ładowaniu strony
 window.onload = setThemeFromCookie;
-
-// Dodajemy nasłuchiwacz zdarzeń do przycisku
-document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
