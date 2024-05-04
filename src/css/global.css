@@ -57,6 +57,9 @@ body {
     z-index: -20000;
 }
 
+h1, h2, h3, h4, h5, h6, .header {
+    user-select: none;
+}
 
 deepl-input-controller, deepl-inline-trigger{
     opacity: 0;
